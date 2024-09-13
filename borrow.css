@@ -1,0 +1,245 @@
+/* Resetting default margin and padding */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
+
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 10 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Setting up basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #0032A0;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+#top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.navbar ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}
+
+.navbar ul li a:hover {
+    color: #FED141;
+}
+
+#header-image-menu img {
+    display: block;
+    width: 100%;
+}
+
+#searchbar {
+    background-color: #FED141;
+    padding: 10px 20px;
+}
+
+#searchbar input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#searchbar input[type="text"]::placeholder {
+    color: black;
+    opacity: 0.9;
+}
+
+.information-section {
+    background-color: #0032A0;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+#header-image-menu {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+}
+
+.image-text-qoute{
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Sections */
+.Sec1, .Sec2, .Sec3, .Sec4 {
+    padding: 40px;
+}
+
+.Sec1 {
+    background-color: #FED141;
+}
+
+.Sec2 {
+    background-color: #BF0D3E;
+    color: #FFFFFF;
+}
+
+.Sec3 {
+    background-color: #0032A0;
+    color: #FFFFFF;
+}
+
+.Sec4 {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+/* Footer */
+footer {
+    background-color: #0032A0;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h3 a {
+    color: #FFFFFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+h3 a:hover {
+    color: #FED141; /* Change color on hover */
+}
+
+#ret a{
+    color: black; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+
+}
+#ret a:hover{
+    color: #FED141; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+
+}
+
+.table {
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse; /* Collapse border */
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+
+.table table {
+    width: 100%; /* Set table width to fill its container */
+}
+
+.table td {
+    padding: 10px; /* Add padding to cells */
+    border: 1px solid #ccc; /* Add border to cells */
+}
+
+.table input[type="text"],
+.table input[type="date"],
+.table select {
+    width: 100%; /* Make inputs and select fill the cell */
+    padding: 5px; /* Add padding */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+/* Style for select dropdown arrow */
+.table select {
+    appearance: none; /* Remove default select arrow */
+    -webkit-appearance: none; /* For webkit browsers */
+    -moz-appearance: none; /* For Firefox */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23000000"><path d="M7 10l5 5 5-5z"/></svg>'); /* Add custom arrow */
+    background-repeat: no-repeat; /* Prevent the default arrow from showing */
+    background-position: right 5px center; /* Position the arrow */
+    background-size: 12px; /* Set size of arrow */
+}
+
+.table tr{
+    font-weight: bold;
+}
+
+/* Style for hover effect on table rows */
+.table tr:hover {
+    background-color: #f2f2f2; /* Light gray background on hover */
+}
+
+
+/* Style for the submit button */
+/* Centering the submit button */
+input[type="submit"] {
+    display: block; /* Change the display to block */
+    margin: 0 auto; /* Add margin to center horizontally */
+    background-color: #BF0D3E; /* Button background color */
+    color: #FFFFFF; /* Button text color */
+    border-radius: 5px; 
+    padding: 10px 100px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #BF0D3E; /* Change background color on hover */
+}

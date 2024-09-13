@@ -1,0 +1,192 @@
+/* Resetting default margin and padding */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
+
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 10 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    background-color: #0032A0;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+#top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.navbar ul li a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}
+
+.navbar ul li a:hover {
+    color: #FED141;
+}
+
+#header-image-menu img {
+    display: block;
+    width: 100%;
+}
+
+#searchbar {
+    background-color: #BF0D3E;
+    padding: 10px 20px;
+}
+
+#searchbar input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+#searchbar input[type="text"]::placeholder {
+    color: black;
+    opacity: 0.9;
+}
+
+.information-section {
+    background-color: #0032A0;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+#header-image-menu {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow for better visibility */
+}
+
+.image-text-qoute{
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Sections */
+.Sec1, .Sec2, .Sec3, .Sec4 {
+    padding: 40px;
+}
+
+.Sec1 {
+    background-color: #FED141;
+}
+
+.Sec2 {
+    background-color: #BF0D3E;
+    color: #FFFFFF;
+}
+
+.Sec3 {
+    background-color: #0032A0;
+    color: #FFFFFF;
+}
+
+.Sec4 {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #0032A0;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h3 a {
+    color: #FFFFFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+h3 a:hover {
+    color: #FED141; /* Change color on hover */
+}
+
+#ret a{
+    color: black; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+
+}
+#ret a:hover{
+    color: #FED141; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+
+}
+
+
+/* Container for the images */
+.book-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Styling for the images */
+.book-images img {
+    width: 200px; /* Set width of images */
+    height: 300px; /* Set height of images */
+    margin: 10px; /* Add some margin between images */
+    border: 2px solid #0032A0; /* Add border to images */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+    
